@@ -1,0 +1,28 @@
+.home {
+  display: inline-block;
+  margin: 8rem 15rem;
+
+  h1 {
+    font-size: 5rem;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+  }
+
+  &__heading {
+    width: 62%;
+  }
+
+  &__btn {
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: left;
+    padding: 0.5rem;
+    background-color: #9a8c98;
+    color: #4a4e69;
+    padding: 1rem;
+  }
+}

@@ -1,10 +1,17 @@
 :root {
+  --color-primary: #4a4e69;
+  --color-primary-light: #9a8c98;
+  --color-primary-dark: #22223b;
+  --color-primary-light2: #f2e9e4;
+  --color-primary-warm: #c9ada7;
+  --color-primary-warm2: #cbc0d3;
 }
 
 * {
   margin: 0;
   padding: 0;
 }
+
 *,
 *::before,
 *::after {
@@ -20,8 +27,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #22223b;
   min-height: 100vh;
+  color: #4a4e69;
 }
