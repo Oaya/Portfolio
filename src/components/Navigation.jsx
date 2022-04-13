@@ -1,9 +1,9 @@
-import { NavLink, Switch, Route } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import React from "react";
 
 
 function Navigation() {
-    return(
+  return (
     <nav>
       <ul>
         <li><NavLink to='/'>Home</NavLink></li>

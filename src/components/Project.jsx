@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+
+import ProjectList from './ProjectList';
 
 export default function Project() {
   return (
-    <div>
+    <div id="project">
       <h1>My Projects</h1>
-      <div></div>
+      <ProjectList />
     </div>
 
   )
