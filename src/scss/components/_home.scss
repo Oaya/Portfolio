@@ -1,10 +1,11 @@
 .home {
   display: inline-block;
-  margin: 15rem;
+  margin: 5rem 15rem;
 
   h1 {
     font-size: 5rem;
     margin-bottom: 0;
+    text-align: left;
   }
 
   p {
@@ -24,11 +25,5 @@
     padding: 1rem 2rem;
     font-size: 2rem;
     text-align: left;
-
-    &:hover {
-      background-color: var(
-        --color-primary-warm2
-      );
-    }
   }
 }

@@ -12,6 +12,9 @@
   background-color: var(--color-primary-light);
   color: var(--color-primary);
   border-radius: 25px;
+  &:hover {
+    background-color: var(--color-primary-warm2);
+  }
 }
 
 * {
@@ -37,4 +40,10 @@ body {
   background-color: #22223b;
   min-height: 100vh;
   color: #4a4e69;
+}
+
+h1 {
+  font-size: 4.5rem;
+  text-align: center;
+  margin: 5rem 0;
 }

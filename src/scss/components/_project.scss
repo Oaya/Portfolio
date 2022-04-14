@@ -1,12 +1,7 @@
 .project {
+  // border-top: 3px solid var(--color-primary);
   margin: 5rem auto;
   width: 80%;
-
-  h1 {
-    font-size: 3.5rem;
-    text-align: center;
-    margin: 5rem 0;
-  }
 
   &__content {
     flex-grow: 1;
