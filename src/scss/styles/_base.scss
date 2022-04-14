@@ -7,6 +7,13 @@
   --color-primary-warm2: #cbc0d3;
 }
 
+@mixin btn {
+  text-decoration: none;
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+  border-radius: 25px;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -34,7 +34,12 @@ export default function ProjectList() {
                 </span>
               ))}
             </div>
-            <a href={item.github}>To github</a>
+            <a
+              className="project__btn"
+              href={item.github}
+            >
+              Github Page
+            </a>
           </div>
         </div>
       ))}

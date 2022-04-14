@@ -1,8 +1,8 @@
-import Kintsugi from "../images/kintsugi.gif";
-import Scheduler from "../images/scheduler.gif";
-import Jungle from "../images/Jungle.gif";
-import WikiMap from "../images/wikimap.gif";
-import PennyTracker from "../images/penny-tacker.png";
+import Kintsugi from "../images/project/kintsugi.gif";
+import Scheduler from "../images/project/scheduler.gif";
+import Jungle from "../images/project/Jungle.gif";
+import WikiMap from "../images/project/wikimap.gif";
+import PennyTracker from "../images/project/penny-tacker.png";
 // import Natuor from "../images/Natour.gif";
 
 export const projectData = [
@@ -67,6 +67,7 @@ export const projectData = [
       "Express.js",
       "Google map API",
       "SCSS",
+      "cookie-parser",
       "ejs",
     ],
     github: "https://github.com/Oaya/T2_midterm",

@@ -1,6 +1,6 @@
 .home {
   display: inline-block;
-  margin: 8rem 15rem;
+  margin: 15rem;
 
   h1 {
     font-size: 5rem;
@@ -11,18 +11,24 @@
     margin-bottom: 3rem;
     font-size: 1.8rem;
   }
+  span {
+    color: var(--color-primary-light);
+  }
 
   &__heading {
     width: 62%;
   }
 
   &__btn {
-    text-decoration: none;
+    @include btn;
+    padding: 1rem 2rem;
     font-size: 2rem;
     text-align: left;
-    padding: 0.5rem;
-    background-color: #9a8c98;
-    color: #4a4e69;
-    padding: 1rem;
+
+    &:hover {
+      background-color: var(
+        --color-primary-warm2
+      );
+    }
   }
 }
