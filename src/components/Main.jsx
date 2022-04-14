@@ -8,7 +8,6 @@ function Main() {
   return (
     <Switch>
       <Route exact path='/' ><Home /></Route>
-
       <Route exact path='/projects' ><Project /></Route>
       <Route exact path='/contact'><Contact /></Route>
     </Switch>)

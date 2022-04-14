@@ -1,0 +1,30 @@
+.project {
+  display: inline-block;
+
+  margin: 3rem 10rem;
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 5rem 0;
+  }
+
+  &__content {
+    align-self: flex-start;
+    margin-left: 5rem;
+  }
+
+  &__list {
+    display: flex;
+    width: 100%;
+    padding: 4rem 0;
+    align-items: center;
+  }
+  &__title {
+    font-size: 3.5rem;
+  }
+}
+.image {
+  width: 35vw;
+  height: 300px;
+}
