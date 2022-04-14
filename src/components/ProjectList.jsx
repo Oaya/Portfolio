@@ -3,8 +3,6 @@ import React from "react";
 import { projectData } from "./projectData";
 
 export default function ProjectList() {
-  console.log(projectData.id);
-
   return (
     <div>
       {projectData.map((item) => (
@@ -23,9 +21,20 @@ export default function ProjectList() {
             <h2 className="project__title">
               {item.title}
             </h2>
-            <p>{item.description}</p>
-            <p>{item.tech}</p>
-            <p>{item.github}</p>
+            <p className="project__desc">
+              {item.description}
+            </p>
+            <div className="project__tech-list">
+              {item.tech.map((i) => (
+                <span
+                  key={i}
+                  className="project__tech-item"
+                >
+                  {i}
+                </span>
+              ))}
+            </div>
+            <a href={item.github}>To github</a>
           </div>
         </div>
       ))}

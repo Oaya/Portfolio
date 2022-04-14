@@ -3,7 +3,7 @@ import Scheduler from "../images/scheduler.gif";
 import Jungle from "../images/Jungle.gif";
 import WikiMap from "../images/wikimap.gif";
 import PennyTracker from "../images/penny-tacker.png";
-import Natuor from "../images/Natour.gif";
+// import Natuor from "../images/Natour.gif";
 
 export const projectData = [
   {
@@ -27,7 +27,7 @@ export const projectData = [
     title: "Scheduler",
     img: [Scheduler],
     description:
-      "React scheduling application that allows users to book and cancel interview up to appointments each day.",
+      "React scheduling application that allows users to book, edit and cancel interview by picking up  an available interviewer and time  up to appointments each day. ",
     tech: [
       "React",
       "Axios",
@@ -60,14 +60,13 @@ export const projectData = [
     title: "Map-wiki",
     img: [WikiMap],
     description:
-      "3 person team project to build an app that create editable maps with pins",
+      "3 person team project to develop an application that users are able to create editable maps and pins with google map.",
     tech: [
       "jQuery",
       "Node.js",
       "Express.js",
       "Google map API",
       "SCSS",
-      "cookie-parser",
       "ejs",
     ],
     github: "https://github.com/Oaya/T2_midterm",
@@ -77,7 +76,7 @@ export const projectData = [
     title: "Penny-tracker",
     img: [PennyTracker],
     description:
-      "Budget app with react to track user's expenses and incomes",
+      "Budget app with react to track user's expenses and incomes. Users are able to see income and expenses with pie chart by categories.",
     tech: [
       "React",
       "React-chart.js",
