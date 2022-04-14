@@ -3,7 +3,7 @@ import Github from "../images/icon/icons8-github-48.png";
 import LinkedIn from "../images/icon/icons8-linkedin-48.png";
 import Email from "../images/icon/icons8-mail-48.png";
 
-function Contact() {
+function Footer() {
   return (
     <div className="contact">
       <div className="contact__link">
@@ -35,4 +35,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Footer;

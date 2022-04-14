@@ -1,48 +1,32 @@
 import React from "react";
 
+import { educationData } from "./educationData.js";
+
 export default function Education() {
   return (
-    <div className="component">
+    <div className="component education">
       <h1 className="component__heading">
         Education
       </h1>
 
       <div className="education__list">
-        <div className="education__content">
-          <p className="education__title">
-            Full-stack Web Development Bootcamp
-          </p>
-          <p className="education__day">
-            Lighthouse Labs | 2022
-          </p>
-        </div>
-
-        <div className="about__content">
-          <p className="education__title">
-            TypeScript-2022 Edition course
-          </p>
-          <p className="education__day">
-            Udemy | 2022
-          </p>
-        </div>
-
-        <div className="about__content">
-          <p className="education__title">
-            Advanced CSS and Sass course
-          </p>
-          <p className="education__day">
-            Lighthouse Labs | 2021
-          </p>
-        </div>
-
-        <div className="about__content">
-          <p className="education__title">
-            Web development Bootcamp course
-          </p>
-          <p className="education__day">
-            Lighthouse Labs | 2021
-          </p>
-        </div>
+        {educationData.map((data) => (
+          <div
+            className="education__content"
+            key={data.id}
+          >
+            <a
+              href={data.url}
+              className="education__title"
+            >
+              {data.title}
+            </a>
+            <p className="education__day">
+              {data.resource} &nbsp;&nbsp;|
+              &nbsp;&nbsp;{data.day}
+            </p>
+          </div>
+        ))}
       </div>
     </div>
   );
