@@ -87,7 +87,7 @@ export const projectData = [
       "date-fns",
     ],
     github: "https://github.com/Oaya/pennytraker",
-    url: "https://oaya.github.io/pennytraker/#/",
+    url: "https://oaya.github.io/pennytraker/#/welcome",
   },
   // {
   //   id: 6,

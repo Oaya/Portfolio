@@ -80,10 +80,13 @@
 .image-button {
   text-decoration: none;
   color: var(--color-primary-light);
-  font-size: 3rem;
+  font-size: 3.2rem;
+  width: 100%;
+  text-align: center;
   margin: auto;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  animation: glow 2s infinite alternate;
 }
