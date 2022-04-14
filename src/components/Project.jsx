@@ -22,6 +22,16 @@ export default function Project() {
                   src={item.img}
                   alt=""
                 />
+                {item.url && (
+                  <div className="image-hover">
+                    <a
+                      href={item.url}
+                      class="image-button"
+                    >
+                      Check the Page
+                    </a>
+                  </div>
+                )}
               </div>
               <div className="project__content">
                 <h2 className="project__title">

@@ -39,6 +39,7 @@ export const projectData = [
       "Storybook",
     ],
     github: "https://github.com/Oaya/Scheduler",
+    url: "https://relaxed-wright-b7e3dd.netlify.app/",
   },
   {
     id: 3,
@@ -86,6 +87,7 @@ export const projectData = [
       "date-fns",
     ],
     github: "https://github.com/Oaya/pennytraker",
+    url: "https://oaya.github.io/pennytraker/#/",
   },
   // {
   //   id: 6,

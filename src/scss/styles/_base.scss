@@ -37,9 +37,9 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  background-color: #22223b;
+  background-color: var(--color-primary-dark);
   min-height: 100vh;
-  color: #4a4e69;
+  color: var(--color-primary);
 }
 
 h1 {
