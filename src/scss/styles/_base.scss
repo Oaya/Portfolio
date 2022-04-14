@@ -47,3 +47,15 @@ h1 {
   text-align: center;
   margin: 5rem 0;
 }
+
+.component {
+  margin: 5rem auto;
+  width: 80%;
+
+  &__heading {
+    font-family: "Grape Nuts";
+    font-size: 6rem;
+    // border-top: 2px solid var(--color-primary);
+    border-bottom: 2px solid var(--color-primary);
+  }
+}

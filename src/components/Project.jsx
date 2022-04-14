@@ -5,8 +5,8 @@ import { projectData } from "./projectData";
 export default function Project() {
   return (
     <div>
-      <div className="project" id="project">
-        <h1 className="project__heading">
+      <div className="component" id="project">
+        <h1 className="component__heading">
           My Projects
         </h1>
 
