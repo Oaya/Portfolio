@@ -6,6 +6,7 @@ function Home() {
     <div className="home">
       <div className="home__heading">
         <h1>Hello, I am Aya</h1>
+
         <p>
           I am a full-stack developer who is
           transitioning career from being a baker.
@@ -26,14 +27,12 @@ function Home() {
           and<span> MongoDB</span>.
         </p>
       </div>
-      <Link
+      <a
+        href="https://drive.google.com/file/d/13GwRl-o4YAuZLwEic-SW2NQTWpmS5nIE/view?usp=sharing"
         className="home__btn"
-        onClick={() =>
-          window.location.replace("/#project")
-        }
       >
-        Discover Projects
-      </Link>
+        View My Resume
+      </a>
     </div>
   );
 }

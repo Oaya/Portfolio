@@ -1,8 +1,13 @@
 .project {
-  // border-top: 3px solid var(--color-primary);
   margin: 5rem auto;
   width: 80%;
 
+  &__heading {
+    font-family: "Grape Nuts";
+    font-size: 6rem;
+    // border-top: 2px solid var(--color-primary);
+    border-bottom: 2px solid var(--color-primary);
+  }
   &__content {
     flex-grow: 1;
     display: flex;
@@ -14,7 +19,7 @@
   &__list {
     display: flex;
     padding: 4rem 0;
-    align-items: center;
+    align-items: flex-start;
   }
 
   &__title {
@@ -54,9 +59,11 @@
     align-self: flex-end;
     display: inline-block;
   }
+  &__image {
+  }
 }
 
 .image {
   width: 35vw;
-  height: 300px;
+  height: auto;
 }
