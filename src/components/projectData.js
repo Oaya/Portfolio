@@ -11,7 +11,7 @@ export const projectData = [
     title: "Kintsugi",
     img: [Kintsugi],
     description:
-      "3 person team project to build an app that aims to promote accessibility to mental healthcare for immigrants by connection them tp providers of their cultural/linguistic background. It allows to users to book an appointment with transcribed voice messages and able to have video chatting.",
+      "Three people's team project to build an app that aims to promote accessibility to mental healthcare for immigrants by connection them tp providers of their cultural/ linguistic background.It allows to users to book an appointment with transcribed voice messages and able to have video chatting.",
     tech: [
       "React",
       "Express.js",
@@ -62,7 +62,7 @@ export const projectData = [
     title: "Map-wiki",
     img: [WikiMap],
     description:
-      "3 person team project to develop an application that users are able to create editable maps and pins with google map.",
+      "Three people's team project to develop an application that users are able to create editable maps and pins with google map.",
     tech: [
       "jQuery",
       "Node.js",
