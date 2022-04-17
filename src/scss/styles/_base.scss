@@ -1,0 +1,71 @@
+:root {
+  --color-primary: #4a4e69;
+  --color-primary-light: #9a8c98;
+  --color-primary-dark: #22223b;
+  --color-primary-light2: #f2e9e4;
+  --color-primary-warm: #c9ada7;
+  --color-primary-warm2: #cbc0d3;
+}
+
+@mixin btn {
+  text-decoration: none;
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+  border-radius: 25px;
+  &:hover {
+    background-color: var(--color-primary-warm2);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //1rem = 10px
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: var(--color-primary-dark);
+  min-height: 100vh;
+  color: var(--color-primary);
+}
+
+h1 {
+  font-size: 4.5rem;
+  text-align: center;
+  margin: 5rem 0;
+}
+
+.component {
+  margin: 5rem auto;
+  width: 80%;
+
+  &__heading {
+    font-family: "Grape Nuts";
+    font-size: 6rem;
+    margin-top: 10rem;
+    border-bottom: 2px solid var(--color-primary);
+  }
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 20px #63e0ee;
+  }
+  100% {
+    text-shadow: 0 0 30px #e3e8e9,
+      0 0 10px #b2e9f0;
+  }
+}
