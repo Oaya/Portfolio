@@ -11,7 +11,7 @@ export const projectData = [
     title: "Kintsugi",
     img: [Kintsugi],
     description:
-      "3 person team project to build an app that aims to promote accessibility to mental healthcare for immigrants by connection them tp providers of their cultural/linguistic background. It allows to users to book an appointment with transcribed voice messages and able to have video chatting.",
+      "3 people's team project to build an app that aims to promote accessibility to mental healthcare for immigrants by connection them tp providers of their cultural/linguistic background. It allows to users to book an appointment with transcribed voice messages and able to have video chatting.",
     tech: [
       "React",
       "Express.js",
