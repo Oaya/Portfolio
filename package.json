@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "scss": "node-sass --watch src/scss -o css",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [

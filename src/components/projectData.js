@@ -21,6 +21,7 @@ export const projectData = [
       "Cypress",
     ],
     github: "https://github.com/Oaya/kintsugi",
+    url: "https://625b5f2c08bfe0738c9980f5--scintillating-faloodeh-769e38.netlify.app/",
   },
   {
     id: 2,
