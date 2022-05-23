@@ -3,7 +3,7 @@
   --color-primary-light: #9a8c98;
   --color-primary-dark: #22223b;
   --color-primary-light2: #f2e9e4;
-  --color-primary-warm: #c9ada7;
+  --color-primary-warm: #d9bc6cff;
   --color-primary-warm2: #cbc0d3;
 }
 
@@ -53,10 +53,12 @@ h1 {
   width: 80%;
 
   &__heading {
+    color: var(--color-primary-warm);
     font-family: "Grape Nuts";
     font-size: 6rem;
     margin-top: 10rem;
-    border-bottom: 2px solid var(--color-primary);
+    border-bottom: 2px solid
+      var(--color-primary-warm);
   }
 }
 

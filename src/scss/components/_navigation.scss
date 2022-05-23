@@ -8,7 +8,7 @@
   &__logo {
     margin-left: 5rem;
     font-size: 3rem;
-    color: var(--color-primary-light);
+    color: var(--color-primary-warm);
   }
 }
 
@@ -35,7 +35,8 @@ img {
 
 .education {
   padding-bottom: 5rem;
-  border-bottom: 2px solid var(--color-primary);
+  border-bottom: 2px solid
+    var(--color-primary-warm);
   &__title {
     font-size: 2.5rem;
     margin: 0;

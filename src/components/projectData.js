@@ -73,6 +73,7 @@ export const projectData = [
       "ejs",
     ],
     github: "https://github.com/Oaya/T2_midterm",
+    url: "https://wiki-map-app.herokuapp.com/",
   },
   {
     id: 5,
