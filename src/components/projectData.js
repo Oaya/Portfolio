@@ -88,8 +88,9 @@ export const projectData = [
       "SCSS",
       "date-fns",
     ],
-    github: "https://github.com/Oaya/pennytraker",
-    url: "https://oaya.github.io/pennytraker/#/welcome",
+    github:
+      "https://github.com/Oaya/Penny-tracker",
+    url: "https://oaya.github.io/Penny-tracker/#/",
   },
   // {
   //   id: 6,
