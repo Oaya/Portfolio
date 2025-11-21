@@ -1,5 +1,3 @@
-import React from "react";
-
 import Home from "./components/Home";
 import Project from "./components/Project";
 import Footer from "./components/Footer";
@@ -8,14 +6,14 @@ import Education from "./components/Education";
 import "./scss/main.scss";
 
 function App() {
-  return (
-    <div>
-      <Navigation />
-      <Home />
-      <Project />
-      <Education />
-      <Footer />
-    </div>
-  );
+	return (
+		<div>
+			<Navigation />
+			<Home />
+			<Project />
+			<Education />
+			<Footer />
+		</div>
+	);
 }
 export default App;
