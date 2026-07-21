@@ -14,7 +14,7 @@ function Navigation() {
 				<a href="#project">Project</a>
 			</div>
 			<div className="navigation__link">
-				<a href="mailto: ayaaa.okzk@gmail.com">
+				<a href="mailto:aya.okizaki@gmail.com">
 					<img
 						className="link__email"
 						src={Mail}

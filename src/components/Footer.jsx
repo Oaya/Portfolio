@@ -13,7 +13,7 @@ function Footer() {
 			<p className="copy-right">© 2026 Aya. All rights are reserved.</p>
 
 			<div className="contact__link">
-				<a href="mailto: ayaaa.okzk@gmail.com">
+				<a href="mailto:aya.okizaki@gmail.com">
 					<img
 						className="link__email"
 						src={Email}

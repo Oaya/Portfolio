@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ff8c56be.chunk.css",
-    "main.js": "/Portfolio/static/js/main.b0654b54.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.b0654b54.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.1221748b.chunk.css",
+    "main.js": "/Portfolio/static/js/main.e251500b.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.e251500b.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.d916325c.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.d916325c.js.map",
-    "static/js/2.52334dec.chunk.js": "/Portfolio/static/js/2.52334dec.chunk.js",
-    "static/js/2.52334dec.chunk.js.map": "/Portfolio/static/js/2.52334dec.chunk.js.map",
+    "static/js/2.5b9b1be2.chunk.js": "/Portfolio/static/js/2.5b9b1be2.chunk.js",
+    "static/js/2.5b9b1be2.chunk.js.map": "/Portfolio/static/js/2.5b9b1be2.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.ff8c56be.chunk.css.map": "/Portfolio/static/css/main.ff8c56be.chunk.css.map",
-    "static/js/2.52334dec.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.52334dec.chunk.js.LICENSE.txt",
-    "static/media/github.25562434.png": "/Portfolio/static/media/github.25562434.png",
+    "static/css/main.1221748b.chunk.css.map": "/Portfolio/static/css/main.1221748b.chunk.css.map",
+    "static/js/2.5b9b1be2.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.5b9b1be2.chunk.js.LICENSE.txt",
+    "static/media/avatar.74f03e44.png": "/Portfolio/static/media/avatar.74f03e44.png",
     "static/media/kintsugi.5c675972.gif": "/Portfolio/static/media/kintsugi.5c675972.gif",
-    "static/media/linkedin.97f424e5.png": "/Portfolio/static/media/linkedin.97f424e5.png",
-    "static/media/mail.63fb666b.png": "/Portfolio/static/media/mail.63fb666b.png",
     "static/media/penny-tacker.2658254d.png": "/Portfolio/static/media/penny-tacker.2658254d.png",
+    "static/media/resume.d9cf4475.pdf": "/Portfolio/static/media/resume.d9cf4475.pdf",
     "static/media/scheduler.846cdcb5.gif": "/Portfolio/static/media/scheduler.846cdcb5.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.d916325c.js",
-    "static/js/2.52334dec.chunk.js",
-    "static/css/main.ff8c56be.chunk.css",
-    "static/js/main.b0654b54.chunk.js"
+    "static/js/2.5b9b1be2.chunk.js",
+    "static/css/main.1221748b.chunk.css",
+    "static/js/main.e251500b.chunk.js"
   ]
 }

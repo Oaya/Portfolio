@@ -4,7 +4,6 @@ import PennyTracker from "../../images/project/penny-tacker.png";
 
 export const projectData = [
 	{
-		id: 1,
 		title: "Kintsugi",
 		img: [Kintsugi],
 		description:
@@ -14,7 +13,6 @@ export const projectData = [
 		url: "https://625b5f2c08bfe0738c9980f5--scintillating-faloodeh-769e38.netlify.app/",
 	},
 	{
-		id: 2,
 		title: "Scheduler",
 		img: [Scheduler],
 		description:
@@ -24,7 +22,6 @@ export const projectData = [
 		url: "https://relaxed-wright-b7e3dd.netlify.app/",
 	},
 	{
-		id: 3,
 		title: "Penny-tracker",
 		img: [PennyTracker],
 		description:

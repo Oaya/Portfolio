@@ -1,5 +1,6 @@
 import { GrDownload, GrMailOption } from "react-icons/gr";
 import Avatar from "../images/avatar.png";
+import Resume from "../images/resume.pdf";
 
 export default function About() {
 	return (
@@ -35,7 +36,7 @@ export default function About() {
 					<div className="about__actions">
 						<a
 							className="about__btn about__btn--primary"
-							href="/resume.pdf"
+							href={Resume}
 							download
 						>
 							<GrDownload />
@@ -43,7 +44,7 @@ export default function About() {
 						</a>
 						<a
 							className="about__btn about__btn--outline"
-							href="mailto: ayaaa.okzk@gmail.com"
+							href="mailto:aya.okizaki@gmail.com"
 						>
 							<GrMailOption />
 							Get in touch

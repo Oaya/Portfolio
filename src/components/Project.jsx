@@ -15,7 +15,7 @@ export default function Project() {
 					const theme = THEMES[i % THEMES.length];
 					return (
 						<div
-							key={item.id}
+							key={i}
 							className={`project__card project__card--${theme}`}
 						>
 							<div className="project__content">

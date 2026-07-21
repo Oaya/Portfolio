@@ -12,14 +12,22 @@ export default function Skills() {
 				<h2 className="component__heading">Skills.</h2>
 
 				<div className="skills__list">
-					{skillsData.map((skill, i) => (
-						<span
-							key={skill}
-							className={`skills__item skills__item--${THEMES[i % THEMES.length]}`}
-						>
-							{skill}
-						</span>
-					))}
+					{skillsData.map((skill, i) => {
+						const theme = THEMES[i % THEMES.length];
+						return (
+							<div
+								key={i}
+								className={`project__card project__card--${theme} skills__card`}
+							>
+								<img
+									src={skill.img}
+									alt=""
+								/>
+								<p className="skills__title">{skill.title}</p>
+								<p className="skills__desc">{skill.description}</p>
+							</div>
+						);
+					})}
 				</div>
 			</div>
 		</>
