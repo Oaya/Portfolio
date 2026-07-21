@@ -1,17 +1,20 @@
-import Home from "./components/Home";
+import About from "./components/About";
 import Project from "./components/Project";
 import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
-import Education from "./components/Education";
 import "./scss/main.scss";
+import Experiences from "./components/Experiences";
+import Skills from "./components/Skills";
 
 function App() {
 	return (
 		<div>
 			<Navigation />
-			<Home />
+
+			<About />
+			<Experiences />
 			<Project />
-			<Education />
+			<Skills />
 			<Footer />
 		</div>
 	);

@@ -1,0 +1,49 @@
+.skills {
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1.5rem;
+		margin-top: 2rem;
+	}
+
+	&__item {
+		font-size: 1.8rem;
+		font-weight: 500;
+		padding: 1rem 2.2rem;
+		border-radius: 100px;
+		white-space: nowrap;
+		font-family: "Inter", sans-serif;
+
+		&--peach {
+			background-color: #ffebd3;
+			color: #c25b45;
+		}
+
+		&--sage {
+			background-color: #d9ede8;
+			color: #1c4a42;
+		}
+
+		&--blue {
+			background-color: #dcebf3;
+			color: #2c5a72;
+		}
+	}
+
+	&__quote {
+		width: 100%;
+		background-color: var(--color-cream);
+		padding: 5rem 0;
+		margin-top: 6rem;
+	}
+
+	&__quote-text {
+		width: 80%;
+		max-width: 90rem;
+		margin: 0 auto;
+		font-family: "Fraunces", serif;
+		font-size: 2.4rem;
+		line-height: 1.5;
+		color: var(--color-text);
+	}
+}

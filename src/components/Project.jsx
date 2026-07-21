@@ -1,60 +1,68 @@
-import { projectData } from "./projectData";
+import { projectData } from "../util/constants/projectData";
+
+const THEMES = ["peach", "sage", "blue"];
 
 export default function Project() {
 	return (
-		<div>
-			<div
-				className="component"
-				id="project"
-			>
-				<h1 className="component__heading">My Projects</h1>
+		<div
+			className="component"
+			id="project"
+		>
+			<h2 className="component__heading">Projects.</h2>
 
-				<div>
-					{projectData.map((item) => (
+			<div className="project__grid">
+				{projectData.map((item, i) => {
+					const theme = THEMES[i % THEMES.length];
+					return (
 						<div
 							key={item.id}
-							className="project__list"
+							className={`project__card project__card--${theme}`}
 						>
-							<div className="project__image">
-								<img
-									className="image"
-									src={item.img}
-									alt=""
-								/>
-								{item.url && (
-									<div className="image-hover">
-										<a
-											href={item.url}
-											className="image-button"
-										>
-											Check the Page
-										</a>
-									</div>
-								)}
-							</div>
 							<div className="project__content">
-								<h2 className="project__title">{item.title}</h2>
+								<div className="project__title-row">
+									<h3 className="project__title">{item.title}</h3>
+									<a
+										className="project__github"
+										href={item.github}
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										View on GitHub
+									</a>
+								</div>
 								<p className="project__desc">{item.description}</p>
 								<div className="project__tech-list">
-									{item.tech.map((i) => (
+									{item.tech.map((t) => (
 										<span
-											key={i}
+											key={t}
 											className="project__tech-item"
 										>
-											{i}
+											{t}
 										</span>
 									))}
 								</div>
-								<a
-									className="project__btn"
-									href={item.github}
-								>
-									Github Page
-								</a>
+							</div>
+
+							<div className="project__image">
+								<img
+									className="project__img"
+									src={item.img}
+									alt={item.title}
+								/>
+								{item.url && (
+									<a
+										href={item.url}
+										className="project__image-overlay"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										Check the Page
+									</a>
+								)}
 							</div>
 						</div>
-					))}
-				</div>
+					);
+				})}
 			</div>
 		</div>
 	);

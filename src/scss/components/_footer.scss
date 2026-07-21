@@ -1,0 +1,27 @@
+.footer {
+	font-family: "Inter", sans-serif;
+	padding: 3rem 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--color-cream);
+
+	h2 {
+		font-size: 2rem;
+		font-weight: 400;
+		margin-right: 3rem;
+		color: var(--color-text);
+	}
+
+	&__link {
+		margin-top: 5rem;
+		margin-bottom: 1rem;
+		color: var(--color-blue);
+	}
+}
+
+.copy-right {
+	margin-bottom: 1.5rem;
+	font-size: 1.5rem;
+	color: var(--color-gray);
+}

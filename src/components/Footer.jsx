@@ -4,7 +4,14 @@ import Email from "../images/icon/icons8-mail-48.png";
 
 function Footer() {
 	return (
-		<div className="contact">
+		<footer
+			className="footer"
+			id="footer"
+		>
+			<h2>Aya Okizaki</h2>
+
+			<p className="copy-right">© 2026 Aya. All rights are reserved.</p>
+
 			<div className="contact__link">
 				<a href="mailto: ayaaa.okzk@gmail.com">
 					<img
@@ -28,9 +35,7 @@ function Footer() {
 					/>
 				</a>
 			</div>
-
-			<p className="copy-right">OAya © 2022.</p>
-		</div>
+		</footer>
 	);
 }
 
