@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.1221748b.chunk.css",
-    "main.js": "/Portfolio/static/js/main.e251500b.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.e251500b.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.1388f73a.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.1388f73a.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.d916325c.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.d916325c.js.map",
     "static/js/2.5b9b1be2.chunk.js": "/Portfolio/static/js/2.5b9b1be2.chunk.js",
@@ -11,15 +11,15 @@
     "static/css/main.1221748b.chunk.css.map": "/Portfolio/static/css/main.1221748b.chunk.css.map",
     "static/js/2.5b9b1be2.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.5b9b1be2.chunk.js.LICENSE.txt",
     "static/media/avatar.74f03e44.png": "/Portfolio/static/media/avatar.74f03e44.png",
+    "static/media/fluently.8085ca19.gif": "/Portfolio/static/media/fluently.8085ca19.gif",
     "static/media/kintsugi.5c675972.gif": "/Portfolio/static/media/kintsugi.5c675972.gif",
     "static/media/penny-tacker.2658254d.png": "/Portfolio/static/media/penny-tacker.2658254d.png",
-    "static/media/resume.d9cf4475.pdf": "/Portfolio/static/media/resume.d9cf4475.pdf",
-    "static/media/scheduler.846cdcb5.gif": "/Portfolio/static/media/scheduler.846cdcb5.gif"
+    "static/media/resume.d9cf4475.pdf": "/Portfolio/static/media/resume.d9cf4475.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.d916325c.js",
     "static/js/2.5b9b1be2.chunk.js",
     "static/css/main.1221748b.chunk.css",
-    "static/js/main.e251500b.chunk.js"
+    "static/js/main.1388f73a.chunk.js"
   ]
 }
