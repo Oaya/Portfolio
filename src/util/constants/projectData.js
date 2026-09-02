@@ -1,8 +1,25 @@
 import Kintsugi from "../../images/project/kintsugi.gif";
-import Scheduler from "../../images/project/scheduler.gif";
+import Fluently from "../../images/project/fluently.gif";
 import PennyTracker from "../../images/project/penny-tacker.png";
 
 export const projectData = [
+	{
+		title: "Fluently",
+		img: [Fluently],
+		description:
+			"A SaaS platform for language teachers to manage students, schedule lessons, assign AI-generated homework, track goals, and handle billing are all in one place.",
+		tech: [
+			"React",
+			"Ruby on Rails",
+			"AWS S3",
+			"Stripe",
+			"Docker",
+			"LiveKit",
+			"Open AI API",
+		],
+		github: "https://github.com/Oaya/fluently-frontend",
+		url: "https://fluently-bice.vercel.app/",
+	},
 	{
 		title: "Kintsugi",
 		img: [Kintsugi],
@@ -11,15 +28,6 @@ export const projectData = [
 		tech: ["React", "Express.js", "socket.io", "PostgreSQL"],
 		github: "https://github.com/Oaya/kintsugi",
 		url: "https://625b5f2c08bfe0738c9980f5--scintillating-faloodeh-769e38.netlify.app/",
-	},
-	{
-		title: "Scheduler",
-		img: [Scheduler],
-		description:
-			"React scheduling application that allows users to book, edit and cancel interview by picking up  an available interviewer and time  up to appointments each day. ",
-		tech: ["React", "WebSockets", "Cypress", "Jest"],
-		github: "https://github.com/Oaya/Scheduler",
-		url: "https://relaxed-wright-b7e3dd.netlify.app/",
 	},
 	{
 		title: "Penny-tracker",
